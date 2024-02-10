@@ -11,14 +11,16 @@ const Dashboard = () => {
                 <img src='/assets/logo.png'></img>
             </div>
             <div className='flex-warp leading-1 items-center justify-center text-white '>
-                <h3 className='text-inherit'> Lets Talk About Business</h3>
-                <h3 > It is a long established fact that a reader</h3>
+                <h3 className='pt-3 pl-4'> Lets Talk About Business</h3>
+                <p className='pl-4'> It is a long established fact that a reader</p>
             </div>
                 <div className='flex flex-warp items-center justify-between text-lg-right text-center break-words'>
+                    <div className='pl-5'> ||</div>
                     <div className='ml-5 pl-5 relative z-0'>
                         <div className='flex items-center'>
                             <div className='inline-block text-left'>
                                 <h6 className='font-m'>Help Desk 24/7</h6>
+                                <p>(+62)123456</p>
                             </div>
                         </div>
                     </div>
