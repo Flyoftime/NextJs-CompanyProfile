@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import { useEffect, useState } from "react";
 import Dashboard from "@/components/Dashboard";
+import Service from "@/components/Service";
 
 export default function Home() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="">
       <Navbar  scrollTop={scrollTop}/>
       <Dashboard/>
+      <Service/>
     </main>
   );
 }
