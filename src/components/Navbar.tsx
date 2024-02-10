@@ -9,7 +9,7 @@ const Navbar = ({scrollTop}:{scrollTop:any})  => {
   </div>
   <div className="flex gap-4">
     <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Opening Hours</a>
-    <a href='/about' className='text text-white font-bold hover:underline transition-all duration-100'>Customer Support</a>
+    <a href='/about' className='text text-white font-bold hover:underline transition-all duration-100'>Customer Support dong</a>
   </div>
 </nav>
   )
