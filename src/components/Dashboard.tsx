@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from './Swiper'
 import Client from './Client'
 import Service from './Service'
+import Footer from './Footer'
 
 const Dashboard = () => {
   return (
@@ -31,6 +32,7 @@ const Dashboard = () => {
         </div>
         <Service/>
         <Client/>
+        <Footer/>
     </div>
   )
 }
