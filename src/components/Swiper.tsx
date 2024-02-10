@@ -25,7 +25,7 @@ export default function Slider() {
         modules={[Pagination, Navigation]}
         className="mySwiper "
       >
-        <SwiperSlide className='bg-cover bg-no-repeat p-12 text-center relative w-full'>
+        <SwiperSlide className='bg-cover bg-no-repeat p-12 text-center relative w-full h-full'>
             <img src='/assets/Go Younjung.jpg' width={1000} ></img>
                 <div className=' absolute bg-fixed bottom-0 left-0 right-0 top-0 h-full w-full'> 
                     <div className='flex h-full items-center justify-center'>

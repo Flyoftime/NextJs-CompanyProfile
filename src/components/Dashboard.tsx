@@ -1,9 +1,10 @@
 import React from 'react'
 import Slider from './Swiper'
+import Client from './Client'
 
 const Dashboard = () => {
   return (
-    <div className='w-[100%] h-max bg-white relative p-20'>
+    <div className='bg-gray-600 relative p-20'>
         <Slider/>
         <div className='container'>
             <div className='bg-slate-900 flex'>
@@ -27,6 +28,7 @@ const Dashboard = () => {
                 </div>
             </div>
         </div>
+        <Client/>
     </div>
   )
 }

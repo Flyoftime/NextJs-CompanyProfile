@@ -17,7 +17,7 @@ const Service = () => {
                         </div>
                         <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black'></div>
                         <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
-                            <h1 className='text-3xl font-bold text-white'>Digital Branding</h1>
+                            <h1 className='text-3xl font-bold text-white pb-6'>Digital Branding</h1>
                             <p className='text-lg italic text-white mb-3'>Lorem Ipsum dolor sit amet consectetur adipiscing elit.</p>
                             <button className='rounded-fil bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'> 
                             See More
