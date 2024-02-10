@@ -22,7 +22,7 @@ export default function Home() {
     <main className="">
       <Navbar  scrollTop={scrollTop}/>
       <Dashboard/>
-      <Service/>
+      
     </main>
   );
 }
