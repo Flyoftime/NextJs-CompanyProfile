@@ -19,10 +19,9 @@ export default function Home() {
     };
   }, []);
   return (
-    <main className="">
+    <main>
       <Navbar  scrollTop={scrollTop}/>
       <Dashboard/>
-      
     </main>
   );
 }
