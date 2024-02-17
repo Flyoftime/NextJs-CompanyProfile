@@ -37,7 +37,7 @@ export default function Slider() {
           <img className='w-full h-[100vh]' src='/assets/Go Younjung.jpg'></img>
                 <div className=' absolute bg-fixed bottom-0 left-0 right-0 top-0 h-full w-full'> 
                     <div className='flex h-full items-center justify-center'>
-                       <h1 className=' mb-4 text-4xl font-semibold'>Go Youn Jung  No Opacity</h1>
+                       <h1 className=' mb-4 text-4xl font-semibold'>Go Youn Jung  No Opacity :)</h1>
                     </div>
                 </div>
             
