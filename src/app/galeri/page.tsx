@@ -4,10 +4,9 @@ import Navbar from '@/components/Navbar'
 import Header from '@/components/Header';
 
 import Footer from '@/components/Footer';
-import VisiMisi from '@/components/VisiMisi';
+import Gallery from '@/components/Galeri';
 
-
-const History = () => {
+const Galeri = () => {
     const [scrollTop, setScrollTop] = useState(0);
 
     useEffect(() => {
@@ -25,10 +24,10 @@ const History = () => {
         <div>
             <Navbar scrollTop={scrollTop} />
             <Header />
-            <VisiMisi />
+            <Gallery />
             <Footer />
         </div>
     )
 }
 
-export default History
+export default Galeri

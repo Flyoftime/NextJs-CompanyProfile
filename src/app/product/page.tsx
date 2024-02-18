@@ -2,12 +2,10 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '@/components/Navbar'
 import Header from '@/components/Header';
-
+import Pelanggan from '@/components/Pelanggan';
 import Footer from '@/components/Footer';
-import VisiMisi from '@/components/VisiMisi';
-
-
-const History = () => {
+import Products from '@/components/Product';
+const Product = () => {
     const [scrollTop, setScrollTop] = useState(0);
 
     useEffect(() => {
@@ -25,10 +23,10 @@ const History = () => {
         <div>
             <Navbar scrollTop={scrollTop} />
             <Header />
-            <VisiMisi />
+            <Products />
             <Footer />
         </div>
     )
 }
 
-export default History
+export default Product

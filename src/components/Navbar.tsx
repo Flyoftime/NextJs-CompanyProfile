@@ -14,14 +14,14 @@ const Navbar = ({scrollTop}:{scrollTop:any})  => {
   <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-[#e0dede] text-gray-900 rounded-box w-52">
     <li><a href='/History'>History</a></li>
     <li><a href='/visi-misi'>Visi Misi</a></li>
-    <li><a>Identity</a></li>
+    <li><a href='/'>Identity</a></li>
     <li><a>Bussiness Process</a></li>
     <li><a>Rubbers Type</a></li>
   </ul>
 </div>
     <a href="/pelanggan" className='text text-white font-bold hover:underline transition-all duration-100'>Pelanggan</a>
-    <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Products</a>
-    <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Gallery</a>
+    <a href="/product" className='text text-white font-bold hover:underline transition-all duration-100'>Products</a>
+    <a href="/galeri" className='text text-white font-bold hover:underline transition-all duration-100'>Gallery</a>
     <a href='/about' className='text text-white font-bold hover:underline transition-all duration-100'>Customer Support</a>
     <ThemeSwitch/>
   </div>

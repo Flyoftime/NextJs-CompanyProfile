@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '@/components/Navbar'
 import Header from '@/components/Header';
+import Pelanggan from '@/components/Pelanggan';
+import Footer from '@/components/Footer';
 const Costumer = () => {
     const [scrollTop, setScrollTop] = useState(0);
 
@@ -20,6 +22,8 @@ const Costumer = () => {
         <div>
             <Navbar scrollTop={scrollTop} />
             <Header />
+            <Pelanggan />
+            <Footer />
         </div>
     )
 }
