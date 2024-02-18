@@ -12,13 +12,13 @@ const Service = () => {
             </div>
         </div>
         <div className='m-o flex justify-center align-items-center h-[100vh] bg-[#1111] p-8 '>
-            <div className='crd rounded-2xl'>
-                <div className='ovrlay '>
+            <div className='w-80 h-96 relative mx-4 bg-white rounded-2xl'>
+                <div className='form-control justify-center items-center object-cover absolute w-full h-full duration-300 text-black hover:text-white'>
                     <h1 className='font-sans text-[24px] m-[12px] '>Digital Branding</h1>
                     <p className='font-sans text-[16px]'>This is Photoshop version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     <a href="#" className='btn'>Get Started</a>
                 </div>
-                <img className='image' src='/assets/Go Younjung.jpg'></img>
+                <img className='rounded-2xl opacity-100 h-full hover:opacity-0' src='/assets/Go Younjung.jpg'></img>
             </div>
             <div className='crd rounded-2xl'>
                 <div className='ovrlay'>

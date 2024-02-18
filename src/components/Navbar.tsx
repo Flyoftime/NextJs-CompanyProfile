@@ -1,5 +1,6 @@
 
 import React from 'react'
+import ThemeSwitch from './ThemeSwitch'
 
 const Navbar = ({scrollTop}:{scrollTop:any})  => {
   return (
@@ -22,7 +23,9 @@ const Navbar = ({scrollTop}:{scrollTop:any})  => {
     <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Products</a>
     <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Gallery</a>
     <a href='/about' className='text text-white font-bold hover:underline transition-all duration-100'>Customer Support</a>
+    <ThemeSwitch/>
   </div>
+ 
 </nav>
   )
 }

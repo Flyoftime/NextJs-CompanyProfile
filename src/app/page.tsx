@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import { useEffect, useState } from "react";
 import Dashboard from "@/components/Dashboard";
 import Service from "@/components/Service";
+import { Providers } from "./providers";
 
 export default function Home() {
   const [scrollTop, setScrollTop] = useState(0);
