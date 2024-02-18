@@ -13,7 +13,7 @@ const Navbar = ({scrollTop}:{scrollTop:any})  => {
   <div tabIndex={0} role="button" className="btn m-1 bg-transparent text-white border-none">Profile</div>
   <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-[#e0dede] text-gray-900 rounded-box w-52">
     <li><a href='/History'>History</a></li>
-    <li><a>Visi Misi</a></li>
+    <li><a href='/visi-misi'>Visi Misi</a></li>
     <li><a>Identity</a></li>
     <li><a>Bussiness Process</a></li>
     <li><a>Rubbers Type</a></li>

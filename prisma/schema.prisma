@@ -1,0 +1,60 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model About {
+  id              Int @id @default(autoincrement())
+  deskripsi        String
+  noTelepon        String
+  alamat           String
+  email            String
+  faksimili        String
+  namaWebsite      String
+  history          String
+}
+
+model Visi {
+  id              Int @id @default(autoincrement())
+  visi            String
+  misi            String
+}
+
+model Core{
+  id              Int @id @default(autoincrement())
+  core            String
+}
+
+model Identity {
+  id              Int @id @default(autoincrement())
+  namaPerushaan   String
+  namaPemimpin    String
+  berdiri         String
+  Akta            String
+  pengesahan      String
+  situ            String
+  siup            String
+  tandaDaftar     String
+  npwp            String
+  luasPabrik      String
+  jenisUsaha      String
+  produksi        String
+  kapasistas      String
+  karyawan        String
+  hariKerja       String
+  pelanggan       String
+  
+}
+
+model Products{
+  id            Int@id @default(autoincrement())
+  namaProduk    String
+  gambar        String
+}
