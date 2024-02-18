@@ -19,7 +19,7 @@ const Navbar = ({scrollTop}:{scrollTop:any})  => {
     <li><a>Rubbers Type</a></li>
   </ul>
 </div>
-    <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Pelanggan Hours</a>
+    <a href="/pelanggan" className='text text-white font-bold hover:underline transition-all duration-100'>Pelanggan</a>
     <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Products</a>
     <a href="/" className='text text-white font-bold hover:underline transition-all duration-100'>Gallery</a>
     <a href='/about' className='text text-white font-bold hover:underline transition-all duration-100'>Customer Support</a>
