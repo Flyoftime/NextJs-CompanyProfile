@@ -18,7 +18,7 @@ const Service = () => {
                     <p className='font-sans text-[16px]'>This is Photoshop version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     <a href="#" className='btn'>Get Started</a>
                 </div>
-                <img className='rounded-2xl opacity-100 h-full hover:opacity-0' src='/assets/Go Younjung.jpg'></img>
+                <img className='rounded-2xl opacity-100 h-full hover:opacity-0' src='/assets/bg.jpg'></img>
             </div>
             <div className='crd rounded-2xl'>
                 <div className='ovrlay'>
@@ -26,7 +26,7 @@ const Service = () => {
                     <p className='font-sans text-[16px]'>This is Photoshop version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     <a href="#" className='btn'>Get Started</a>
                 </div>
-                <img className='image' src='/assets/Go Younjung.jpg'></img>
+                <img className='image' src='/assets/bg.jpg'></img>
             </div>
             <div className='crd rounded-2xl'>
                 <div className='ovrlay'>
@@ -34,7 +34,7 @@ const Service = () => {
                     <p className='font-sans text-[16px]'>This is Photoshop version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
                     <a href="#" className='btn'>Get Started</a>
                 </div>
-                <img className='image' src='/assets/Go Younjung.jpg'></img>
+                <img className='image' src='/assets/bg.jpg'></img>
             </div>
         </div>
     </div>
