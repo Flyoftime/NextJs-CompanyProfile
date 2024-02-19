@@ -3,19 +3,19 @@ import React from 'react'
 const VisiMisi = () => {
     return (
         <div className='p-20 m-auto'>
-            <h1 className='text-3xl font-bold pl-40 pt-4 text-left '>Visi Misi</h1>
+            <h1 className='text-3xl font-bold pl-20 pt-4  '>Visi Misi</h1>
             <div className='grid grid-cols-1 divide-y divide-slate-400 divide-solid  pt-4 '>
             <div>
             </div>
             <div>
-                <h3 className='font-bold text-2xl pt-4 pl-40'>Visi</h3>
+                <h3 className='font-bold text-2xl pt-4 pl-20'>Visi</h3>
                 <p className='pl-8 pt-2 text-justify '>
                     PT. INDORUB adalah perusahaan yang bergerak dalam bidang produksi karet yang berkualitas,
                     berupaya menjadi perusahaan yang <p>berskala nasional dan internasional,
                     berdaya saing, serta senantiasa mengutamakan kepuasan pelanggan.</p>
                 </p>
                 <div className='pt-5 '>
-                    <h3 className='font-bold text-2xl pt-4 pl-40 '>Misi</h3>
+                    <h3 className='font-bold text-2xl pt-4 pl-20 '>Misi</h3>
                     <div className='pt-2 pl-8 text-justify'>
                         <li>Meningkatkan mutu hasil produksi sesuai kebutuhan dan keinginan pelanggan</li>
                         <li>Meningkatkan kualitas sumber days manusia melalui peningkatan pengetahuan, keterampilan dan kreatifitas</li>
@@ -29,7 +29,7 @@ const VisiMisi = () => {
                     </div>
                 </div>
                 <div className='pt-5'>
-                    <h3 className='font-bold text-2xl pt-4 pl-40 pb-2'>Core Relief</h3>
+                    <h3 className='font-bold text-2xl pt-4 pl-20 pb-2'>Core Relief</h3>
                     <p className='text-justify'>Core Belief PT. INDORUB adalah merupakan kepercayaan yang memberikan landasan kepada semua jajaran staf dan karyawan tentang hakikat</p>
                      
                      <p className='text-justify'>dan makna dari kehidupan manusia Core Belief PT.
@@ -40,7 +40,7 @@ const VisiMisi = () => {
                         pasti ada imbalan yang setimpal dari prestasi yang baik.</p>
                 </div>
                 <div className='pt-5'>
-                    <h3 className='font-bold text-2xl pt-4 pl-40 pb-2'>Core Values</h3>
+                    <h3 className='font-bold text-2xl pt-4 pl-20 pb-2'>Core Values</h3>
                     <p className='text-justify '>Core Values adalah nilai-nilai budaya kerja yang dimiliki dan dikernbangkan oleh semua insan PT. 
                         INDORUB yang diturunkan dari satu generasi ke generasi berikutnya.
                     </p>

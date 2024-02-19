@@ -6,7 +6,7 @@ const Histori = () => {
         <div className="p-20 m-auto">
             <div className='divide-y divide-slate-400 divide-solid  p-4 '>
             <div>
-                <h1 className='text-3xl font-bold pb-6 pl-6'>History</h1>
+                <h1 className='text-3xl font-bold pb-6 pl-20'>History</h1>
             </div>
             <div>
                 
