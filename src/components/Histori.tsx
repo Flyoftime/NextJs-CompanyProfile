@@ -2,9 +2,16 @@ import React from 'react'
 
 const Histori = () => {
     return (
-        <div className="p-10 py-12 space-y-4 bg-gray-100">
-            <h1 className="text-3xl font-bold ">History</h1>
-            <div className="w-max max-w-2xl text-black text-justify align-middle">
+        <div className="p-20 m-auto">
+            <div className='divide-y divide-slate-400 divide-solid  p-4 '>
+            <div>
+                <h1 className='text-3xl font-bold pb-6 pl-6'>History</h1>
+            </div>
+            <div>
+                
+            </div>
+            </div>
+            <div className="w-full text-sm text-black text-justify ">
                 <p>
                     Perkembangan PT.INDORUB diawali dengan pendirian perusahaan dalam bentuk CV (Comrnanditaire Vennontschap) pada tahun 1977 oleh Bapak H. Ayat Diyatna yang sekarang menjabat Direktur Utama PT.INDORUB. Bapak H. Ayat Diyatna sebagai sosok wirausahawan di kota Bandung sangat memahami serta memiliki impian dan harapan agar PT.INDORUB kelak berkembang menjadi perusahaan yang profesional di bidang industri karet yang berkualitas.
                 </p>
