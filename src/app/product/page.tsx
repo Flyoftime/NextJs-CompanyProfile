@@ -22,7 +22,7 @@ const Product = () => {
     return (
         <div>
             <Navbar scrollTop={scrollTop} />
-            <Header />
+            <Header title="Product"/>
             <Products />
             <Footer />
         </div>

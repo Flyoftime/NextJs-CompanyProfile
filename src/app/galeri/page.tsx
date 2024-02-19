@@ -23,7 +23,7 @@ const Galeri = () => {
     return (
         <div>
             <Navbar scrollTop={scrollTop} />
-            <Header />
+            <Header title="Galeri" />
             <Gallery />
             <Footer />
         </div>

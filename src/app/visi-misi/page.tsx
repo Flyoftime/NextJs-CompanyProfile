@@ -24,7 +24,7 @@ const History = () => {
     return (
         <div>
             <Navbar scrollTop={scrollTop} />
-            <Header />
+            <Header title="Visi Misi"/>
             <VisiMisi />
             <Footer />
         </div>

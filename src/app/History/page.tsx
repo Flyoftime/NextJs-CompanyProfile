@@ -23,7 +23,7 @@ const History = () => {
     return (
         <div>
             <Navbar scrollTop={scrollTop} />
-            <Header />
+            <Header title="History"/>
             <Histori />
             <Footer />
         </div>

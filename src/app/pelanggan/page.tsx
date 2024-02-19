@@ -21,7 +21,7 @@ const Costumer = () => {
     return (
         <div>
             <Navbar scrollTop={scrollTop} />
-            <Header />
+            <Header title="Pelanggan"/>
             <Pelanggan />
             <Footer />
         </div>
