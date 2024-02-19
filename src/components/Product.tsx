@@ -16,8 +16,8 @@ const Products = () => {
                     <p>Natural Rubber</p>
                 </div>
                 <div className="bg-base-300 p-4 rounded-md">
-                    <h2 className="text-xl font-bold mb-2">SBR</h2>
-                    <p>Styrene Butadiene Rubber</p>
+                    <h2 className="text-xl font-bold mb-2 text-white">SBR</h2>
+                    <p className='text-white'>Styrene Butadiene Rubber</p>
                 </div>
                 <div className="bg-base-300 p-4 rounded-md">
                     <h2 className="text-xl font-bold mb-2">NBR</h2>
