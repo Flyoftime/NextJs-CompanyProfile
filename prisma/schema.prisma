@@ -25,12 +25,11 @@ model Visi {
   id              Int @id @default(autoincrement())
   visi            String
   misi            String
+  core            String
+  coreval            String
 }
 
-model Core{
-  id              Int @id @default(autoincrement())
-  core            String
-}
+
 
 model Identity {
   id              Int @id @default(autoincrement())
